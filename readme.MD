@@ -48,4 +48,4 @@ Due to the time limitation, I was not able to make all the tests i wanted to. He
 
 
 ### scss-modules
- Another thing that could be implemented, but i did not get to work with the build environment is scss-modules
+ Another thing that could be implemented is scss-modules. I did implement it for next.configuration, but did not need any specific stylings, that bootstrap did not provide.
