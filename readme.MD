@@ -2,19 +2,27 @@
 
 
 ## Running the project
+```
 $ yarn
 $ yarn start
+```
 
 ### Or
+```
 $ npm install
 $ npm start
+```
 
 
 ## testing
+```
 $ yarn test
+```
 
 ### or
+```
 $ npm run test 
+```
 
 
 ## Stack
