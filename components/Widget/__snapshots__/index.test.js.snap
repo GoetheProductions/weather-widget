@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Widget matches snapshot 1`] = `
+<div
+  className="widget"
+  style={
+    Object {
+      "margin": "10px",
+      "width": "300px",
+    }
+  }
+>
+  <div
+    className="panel panel-info"
+  >
+    <div
+      className="panel-heading"
+    >
+      Weather in 
+      <b>
+        test
+      </b>
+    </div>
+    <ul
+      className="list-group"
+    >
+      <li
+        className="list-group-item"
+      />
+      <li
+        className="list-group-item"
+      />
+    </ul>
+  </div>
+</div>
+`;

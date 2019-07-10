@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div>
+  <div
+    className="widget"
+    style={
+      Object {
+        "margin": "10px",
+        "width": "300px",
+      }
+    }
+  >
+    <div
+      className="panel panel-info"
+    >
+      <div
+        className="panel-heading"
+      >
+        Weather in 
+        <b>
+          Copenhagen
+        </b>
+      </div>
+      <ul
+        className="list-group"
+      >
+        <li
+          className="list-group-item"
+        >
+          Temperature:
+           
+          <b>
+            20.55°C
+          </b>
+        </li>
+        <li
+          className="list-group-item"
+        >
+          Humidity:
+           
+          <b>
+            43
+          </b>
+        </li>
+        <li
+          className="list-group-item"
+        >
+          Wind:
+           
+          <b>
+            4.6 m/s 
+          </b>
+        </li>
+        <li
+          className="list-group-item"
+        >
+          <form
+            className="form-inline"
+            onSubmit={[Function]}
+          >
+            <div
+              className="form-group"
+            >
+              <input
+                className="form-control"
+                onChange={[Function]}
+                placeholder="City"
+                type="text"
+                value=""
+              />
+            </div>
+            <button
+              className="btn btn-default"
+              disabled={true}
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

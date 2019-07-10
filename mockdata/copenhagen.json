@@ -1,0 +1,42 @@
+{
+  "coord": {
+    "lon": 12.57,
+    "lat": 55.69
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 20.55,
+    "pressure": 1015,
+    "humidity": 43,
+    "temp_min": 18,
+    "temp_max": 22.22
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 4.6
+  },
+  "clouds": {
+    "all": 42
+  },
+  "dt": 1562767219,
+  "sys": {
+    "type": 1,
+    "id": 9710,
+    "message": 0.0084,
+    "country": "DK",
+    "sunrise": 1562726352,
+    "sunset": 1562788226
+  },
+  "timezone": 7200,
+  "id": 2618425,
+  "name": "Copenhagen",
+  "cod": 200
+}

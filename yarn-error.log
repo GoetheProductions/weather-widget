@@ -1,0 +1,74 @@
+Arguments: 
+  /Users/patrickgoethe/.nvm/versions/node/v10.15.3/bin/node /usr/local/bin/yarn add jest-environment-enzyme jest-enzyme enzyme-adapter-react-* --dev
+
+PATH: 
+  /Users/patrickgoethe/.nvm/versions/node/v10.15.3/bin:/Users/patrickgoethe/.rbenv/shims:/Users/patrickgoethe/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "weather-widget",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "jest"
+    },
+    "author": "Patrick Goethe",
+    "dependencies": {
+      "@babel/core": "^7.5.4",
+      "@babel/preset-env": "^7.5.4",
+      "@babel/preset-react": "^7.0.0",
+      "@zeit/next-sass": "^1.0.1",
+      "babel-jest": "^24.8.0",
+      "enzyme": "^3.10.0",
+      "enzyme-adapter-react-16": "^1.14.0",
+      "eslint-config-airbnb-base": "^13.2.0",
+      "express": "^4.17.1",
+      "isomorphic-unfetch": "^3.0.0",
+      "jest": "^24.8.0",
+      "jest-enzyme": "^7.0.2",
+      "next": "^8.1.0",
+      "node-sass": "^4.12.0",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+      "eslint": "^5.16.0",
+      "eslint-config-airbnb": "^17.1.1",
+      "eslint-plugin-import": "^2.18.0",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-react": "^7.14.2"
+    },
+    "jest": {
+      "setupFilesAfterEnv": ["./node_modules/jest-enzyme/lib/index.js"]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/enzyme-adapter-react-*: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/util/request-manager.js:326:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:188:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:1171:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:1091:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
